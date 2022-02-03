@@ -1,0 +1,159 @@
+@media screen and (max-width: 1199px) { 
+    section.mobile-app-section .app-content h2 {
+        font-size: 32px;
+    }
+    .mob-img img {
+        width: auto;
+        height: 450px;
+        object-fit: cover;
+    }
+    .banner-content h1 {
+        font-size: 38px;
+    }
+    .circle-blue {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 979px) { 
+    .banner-content h1 {
+        font-size: 32px;
+    }
+    section.our-services .section-title p {
+        padding: 0px 20px;
+    }
+    .mob-img img {
+        height: 336px;
+        object-fit: cover;
+    }
+    .banner-content {
+        padding: 70px 0px 0px 0px;
+    }
+    .main-service-box {
+        display: block;
+    }
+    .service-box:nth-child(2) {
+        margin-right: 0;
+    }
+    .service-box {
+        width: 48%;
+        display: inline-block;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .service-box:last-child {
+        margin: 0 auto;
+        display: block;
+    }
+    section.about-section .about-content {
+        padding: 0px 0px 50px 0px;
+    }
+    section.promotion-section {
+        display: flex;
+        align-items: start;
+    }
+    .promo-img {
+        max-width: 300px;
+        background-position: 100%;
+    }
+    .promo-bg h2 {
+        font-size: 42px;
+    }
+    .promo-bg h2:before {
+        height: 12px;
+        bottom: -35px;
+    }
+    .promo-bg p {
+        margin: 55px 0px 30px 0px;
+    }
+    section.testimonial-section .section-title p {
+        padding: 0px 20px;
+    }
+    .testimonial-inner {
+        width: 90%;
+    }
+    section.mobile-app-section .app-content h2 {
+        font-size: 32px;
+    }
+    .circle-blue {
+        width: 100%;
+        height: 100%;
+    }
+    .footer-links.company-links {
+        padding-left: 0px;
+    }
+    .logo-social {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .banner-content-img {
+        margin-top: 50px;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light li {
+        margin-left: 0px;
+    }
+    .banner-content {
+        padding: 100px 0px 0px 0px;
+    }
+    .service-box {
+        width: 100%;
+        margin-right: 0;
+    }
+    .mob-img img {
+        height: 506px;
+        object-fit: cover;
+    }
+    section.about-section .about-content {
+        padding: 50px 0px 50px 0px;
+    }
+    .mobile-app-img {
+        margin-top: 60px;
+    }
+    .footer-links {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 649px) { 
+    section.promotion-section {
+        display: block;
+        align-items: start;
+    }
+    .promo-img {
+        max-width: 100%;
+        background-position: 100%;
+    }
+    .promo-bg {
+        width: 100%;
+        min-height: auto;
+        padding: 50px 30px 50px 30px;
+    }
+}
+
+@media screen and (max-width: 479px) { 
+    button.carousel-control-prev i, button.carousel-control-next i{
+        display: none;
+    }
+    .testimonial-inner{
+        padding: 30px 20px;
+    }
+    .mob-img img {
+        height: 346px;
+        object-fit: cover;
+    }
+    .banner-content h1 {
+        font-size: 28px;
+    }
+    .banner-content p {
+        font-size: 16px;
+    }
+    section.our-services h2, 
+    section.about-section .about-content h2, 
+    section.testimonial-section .section-title h2,
+    section.mobile-app-section .app-content h2{
+        font-size: 28px;
+    }
+}
