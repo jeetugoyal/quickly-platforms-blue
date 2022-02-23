@@ -86,6 +86,15 @@
     .logo-social {
         margin-bottom: 30px;
     }
+    .address-sec .sec-1{
+        width: 45%;
+    }
+    section.contact-section-2 .section-title {
+        padding: 0px 50px;
+    }
+    .contact-form {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -114,6 +123,20 @@
     }
     .footer-links {
         margin-bottom: 30px;
+    }
+    .address-sec .sec-1 {
+        width: 100%;
+        height: auto;
+        margin: 20px 0px;
+    }
+    .address-sec {
+        display: block;
+    }
+    section.contact-section-2 .section-title {
+        padding: 0px 10px;
+    }
+    section.contact-section-2 .section-title h2 {
+        font-size: 25px;
     }
 }
 

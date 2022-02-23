@@ -846,6 +846,35 @@ button.btn.submit-btn {
     border-radius: 15px;
     box-shadow: 0 16px 36px rgb(76 76 255 / 58%);
 }
+/* privacy-policy */
+section.privacy-page-banner {
+    padding: 120px 0px 50px 0px;
+    background:rgb(76 76 255 / 54%);
+}
+.privacy-inner-sec h1 {
+    color: #fff;
+    font-size: 36px;
+}
+ul.bread-crumb li {
+    display: inline-block;
+}
+ul.bread-crumb li a{
+    color:#fff;
+    text-decoration: none;
+}
+ul.bread-crumb li:last-child {
+    margin-left: 5px;
+}
+section.policy-content {
+    padding: 50px 0px;
+}
+section.policy-content h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+section.policy-content h3 {
+    font-size: 22px;
+}
 /* footer section start */
 .top-footer {
     background: #232222;
